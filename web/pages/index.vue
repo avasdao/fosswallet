@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white">
         <div class="relative overflow-hidden">
-            <Header />
+            <HeaderView />
 
             <main>
                 <div class="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
@@ -680,12 +680,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import Header from '@/components/Header.vue'
-
 export default {
-  components: {
-    Header
-  }
+    //
 }
 </script>
